@@ -1,0 +1,8 @@
+print("Calculadora de IMC")
+
+kg = int(input("Pon tu peso en kilogramos: "))
+altura = float(input("Pon tu altura en metros: "))
+m2 = altura*altura
+imc = kg/m2
+
+print("Tu IMC es", imc)
